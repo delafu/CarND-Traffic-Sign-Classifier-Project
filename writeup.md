@@ -19,14 +19,8 @@ The goals / steps of this project are the following:
 [image2]: ./examples/sample_sign.jpg "Grayscaling"
 [image3]: ./examples/augmented.jpg "Augmented"
 [image4]: ./examples/Lenet.jpg "Lenet"
-[image5]: ./test_images/1.jpg "Traffic Sign 1"
-[image6]: ./test_images/10.jpg "Traffic Sign 2"
-[image7]: ./test_images/2.jpg "Traffic Sign 3"
-[image8]: ./test_images/5.jpg "Traffic Sign 4"
-[image9]: ./test_images/6.jpg "Traffic Sign 5"
-[image10]: ./test_images/7.jpg "Traffic Sign 6"
-[image11]: ./test_images/8.jpg "Traffic Sign 7"
-[image12]: ./test_images/9.jpg "Traffic Sign 8"
+[image5]: ./examples/test_signs.jpg "Traffic Sign 1"
+
 
 ## Rubric Points
 Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -129,9 +123,8 @@ If a well known architecture was chosen:
 
 Here are eight German traffic signs that I found on the web:
 
-![alt text][image5] ![alt text][image6] ![alt text][image7] 
-![alt text][image8] ![alt text][image9] ![alt text][image10]
-![alt text][image11] ![alt text][image12]
+![alt text][image5]
+
 
 The first image might be difficult to classify because ...
 
