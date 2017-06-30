@@ -18,7 +18,7 @@ The goals / steps of this project are the following:
 [image1]: ./examples/explorartory.jpg "Visualization"
 [image2]: ./examples/sample_sign.jpg "Grayscaling"
 [image3]: ./examples/augmented.jpg "Augmented"
-[image4]: ./examples/lenet.jpg "Traffic Sign 1"
+[image4]: ./examples/Lenet.jpg "Traffic Sign 1"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
