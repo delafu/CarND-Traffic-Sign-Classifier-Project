@@ -47,7 +47,7 @@ signs data set:
 * The shape of a traffic sign image is (32, 32, 3)
 * The number of unique classes/labels in the data set is 43
 
-####2. Include an exploratory visualization of the dataset.
+### 2. Include an exploratory visualization of the dataset.
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data is distributed
 
@@ -107,20 +107,21 @@ To train the model, I used the AdamOptimizer we used in the Lenet lab, a batch s
 ### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* validation set accuracy of 0.946 
-* test set accuracy of 0.918
+* training set accuracy 0.999
+* validation set accuracy of 0.956 
+* test set accuracy of 0.925
 
 I did not take an iterative approcah choosing the architecture because I thought that I can get good results using the archictecture in the lessons and preprocessing the images.
 
 If a well known architecture was chosen:
 * What architecture was chosen? I chose Lenet architecture
 * Why did you believe it would be relevant to the traffic sign application? Because It does a good job with images
-* How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well? It does a good work because the 
+* How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well? I think It does a good work because test accuracy is above 0.92
  
 
-###Test a Model on New Images
+### Test a Model on New Images
 
-####1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
+#### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are five German traffic signs that I found on the web:
 
