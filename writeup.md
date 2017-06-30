@@ -18,11 +18,15 @@ The goals / steps of this project are the following:
 [image1]: ./examples/explorartory.jpg "Visualization"
 [image2]: ./examples/sample_sign.jpg "Grayscaling"
 [image3]: ./examples/augmented.jpg "Augmented"
-[image4]: ./examples/Lenet.jpg "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image4]: ./examples/Lenet.jpg "Lenet"
+[image5]: ./examples/1.jpg "Traffic Sign 1"
+[image6]: ./examples/10.jpg "Traffic Sign 2"
+[image7]: ./examples/2.jpg "Traffic Sign 3"
+[image8]: ./examples/5.jpg "Traffic Sign 4"
+[image9]: ./examples/6.jpg "Traffic Sign 5"
+[image10]: ./examples/7.jpg "Traffic Sign 6"
+[image11]: ./examples/8.jpg "Traffic Sign 7"
+[image12]: ./examples/9.jpg "Traffic Sign 8"
 
 ## Rubric Points
 Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -104,7 +108,7 @@ My final model is a LeNet network
 
 To train the model, I used the AdamOptimizer we used in the Lenet lab, a batch size of 32 because after a lot of tests I got the better results with it (The drawback is that is slower tan 64) and a learning rate of 0.01.
 
-### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
+#### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
 * training set accuracy 0.999
@@ -123,10 +127,11 @@ If a well known architecture was chosen:
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-Here are five German traffic signs that I found on the web:
+Here are eight German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image5] ![alt text][image6] ![alt text][image7] 
+![alt text][image8] ![alt text][image9] ![alt text][image10]
+![alt text][image11] ![alt text][image12]
 
 The first image might be difficult to classify because ...
 
