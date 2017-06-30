@@ -19,14 +19,14 @@ The goals / steps of this project are the following:
 [image2]: ./examples/sample_sign.jpg "Grayscaling"
 [image3]: ./examples/augmented.jpg "Augmented"
 [image4]: ./examples/Lenet.jpg "Lenet"
-[image5]: ./examples/1.jpg "Traffic Sign 1"
-[image6]: ./examples/10.jpg "Traffic Sign 2"
-[image7]: ./examples/2.jpg "Traffic Sign 3"
-[image8]: ./examples/5.jpg "Traffic Sign 4"
-[image9]: ./examples/6.jpg "Traffic Sign 5"
-[image10]: ./examples/7.jpg "Traffic Sign 6"
-[image11]: ./examples/8.jpg "Traffic Sign 7"
-[image12]: ./examples/9.jpg "Traffic Sign 8"
+[image5]: ./test_images/1.jpg "Traffic Sign 1"
+[image6]: ./test_images/10.jpg "Traffic Sign 2"
+[image7]: ./test_images/2.jpg "Traffic Sign 3"
+[image8]: ./test_images/5.jpg "Traffic Sign 4"
+[image9]: ./test_images/6.jpg "Traffic Sign 5"
+[image10]: ./test_images/7.jpg "Traffic Sign 6"
+[image11]: ./test_images/8.jpg "Traffic Sign 7"
+[image12]: ./test_images/9.jpg "Traffic Sign 8"
 
 ## Rubric Points
 Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
