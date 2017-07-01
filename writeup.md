@@ -137,7 +137,7 @@ I used 7 different images to the test and one aditional image that is a cropped 
 * 9.jpg: This is the cropped version of the 6.jpg image and I think that the model will work better with It.
 
 
-### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
+#### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 Here are the results of the prediction:
 
@@ -167,13 +167,13 @@ Class No entry: 1.0/1   100.0%
 
 This is a little lower comparing with the test dataset but in theese images we are using images with different aspect ratio and in one of them the traffic sign is not centered and I think that this image is very difficult for the model. To solve it I have to improve the preprocessing algorithm detecting the sign and cropping It in a perfect square.
 
-### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
+#### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for making predictions on my final model is located in the 18th cell of the Ipython notebook and includes the visualization in a bar chart. I made a mistake and I only provide the top 3 softmax probabilities. 
 
 In all of them the model is sure of Its predictions with porcentages above 99% in all the samples. 
 
-### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
-### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
+#### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
+#### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
 
