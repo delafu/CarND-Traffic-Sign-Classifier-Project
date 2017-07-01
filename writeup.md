@@ -126,41 +126,54 @@ Here are eight German traffic signs that I found on the web:
 ![alt text][image5]
 
 
-The first image might be difficult to classify because ...
+I used 7 different images to the test and one aditional image that is a cropped and centered version of the 6.jpg.
+* 1.jpg: I think that this image is easy to recognize for the model. It´s centered, and is well focused and with good contrast. One of the difficulties is that the image has not the same aspect ratio of the input of the model and when I resize it, It can lost its shape and this is one of the most important parameters of the classifier model. 
+* 10.jpg: This image has the difficulty that it has a watermark :-).
+* 2.jpg: This image, like in the first one, has the difficulty of the aspect ratio
+* 5.jpg: I think that this image is simple for the model
+* 6.jpg: This is the most difficult image for the model. It´s not a perfect square and the stop sign is not centered. 
+* 7.jpg: The most important difficulty of this image is that It´s a little dark but the training set has a lot of dark images.
+* 8.jpg: The aspect ratio is the only difficult part of this image.
+* 9.jpg: This is the cropped version of the 6.jpg image and I think that the model will work better with It.
 
-####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
+
+### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| Right of the way at the next intersection      		| Right of the way at the next intersection  									| 
+| No passing     			| No passing 										|
+| No entry					| No entry											|
+| 100 km/h	      		| 100 Km/h					 				|
+| Yield			| Yield      							|
+| Stop			| Go straight or right      							|
+| Priority road			| Priority road     							|
+| Stop			| Stop      							|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
 
-####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
+The model was able to correctly guess 7 of the 8 traffic signs, which gives an accuracy of 87.5%. 
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
+Test Accuracy = 0.875
+Class Speed limit (100km/h): 1.0/1   100.0%
+Class No passing: 1.0/1   100.0%
+Class Right-of-way at the next intersection: 1.0/1   100.0%
+Class Priority road: 1.0/1   100.0%
+Class Yield: 1.0/1   100.0%
+Class Stop: 1.0/2   50.0%
+Class No entry: 1.0/1   100.0%
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+This is a little lower comparing with the test dataset but in theese images we are using images with different aspect ratio and in one of them the traffic sign is not centered and I think that this image is very difficult for the model. To solve it I have to improve the preprocessing algorithm detecting the sign and cropping It in a perfect square.
 
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
+The code for making predictions on my final model is located in the 18th cell of the Ipython notebook and includes the visualization in a bar chart. I made a mistake and I only provide the top 3 softmax probabilities. 
 
-For the second image ... 
+In all of them the model is sure of Its predictions with porcentages above 99% in all the samples. 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
-####1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
+### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
 
